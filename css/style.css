@@ -1,9 +1,39 @@
-.main {
-  background-color: #3cdbc0;
-  color: #ffffff;
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1.3rem;
+}
+
+.logo {
+  width: 15.5rem;
+}
+
+.menu {
+  padding-top: 1rem;
 }
 
 a {
   text-decoration: none;
   color: #4a4a4a;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: 0 1rem;
+}
+
+.main {
+  background-color: #3cdbc0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 3rem;
+  max-width: 20rem;
+  text-align: center;
 }
