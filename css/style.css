@@ -1,8 +1,9 @@
-.menu {
-  color: #4a4a4a;
-}
-
 .main {
   background-color: #3cdbc0;
   color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #4a4a4a;
 }
